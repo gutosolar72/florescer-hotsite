@@ -1,6 +1,7 @@
 # ambiente virtual
 venv/
 env/
+*.ini
 
 # cache do Python
 __pycache__/
