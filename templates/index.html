@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Florescer | Débora Ferreira Campos Alves — Psicóloga</title>
+<meta name="description" content="Florescer Terapias — Débora Ferreira Campos Alves, Psicóloga (CRP-SP 06/171671), especialista em Análise do Comportamento Aplicada (ABA). Avaliação psicológica infantil e adulto, neurodesenvolvimento e orientação parental em Ourinhos/SP.">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <img src="{{ url_for('static', filename='img/logo-florescer.png') }}" alt="Florescer" class="logo">
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-whatsapp nav-cta" href="https://wa.me/5514997606343" target="_blank" rel="noopener">Agendar no WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Psicóloga · ABA</span>
+        <h1>Do brincar à autonomia. 🌱</h1>
+        <p class="lead">
+          Débora Ferreira Campos Alves é psicóloga (CRP-SP 06/171671) especialista em
+          Análise do Comportamento Aplicada, com atendimento voltado ao neurodesenvolvimento
+          infantil, avaliação psicológica e orientação para famílias, em Ourinhos/SP.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-whatsapp" href="https://wa.me/5514997606343" target="_blank" rel="noopener">
+            Falar no WhatsApp
+          </a>
+          <a class="btn btn-outline" href="#especialidades">Ver especialidades</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-blob"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section sobre">
+    <div class="container sobre-inner">
+      <h2>Sobre a Florescer</h2>
+      <p>
+        A Florescer nasceu para acolher famílias e crianças em um espaço de cuidado,
+        escuta e desenvolvimento. O trabalho é guiado pela Análise do Comportamento
+        Aplicada (ABA), uma abordagem baseada em evidências para apoiar o desenvolvimento
+        de habilidades, autonomia e qualidade de vida — sempre respeitando o tempo e as
+        particularidades de cada pessoa.
+      </p>
+      <div class="credentials">
+        <div class="credential-card">
+          <span class="credential-label">Psicóloga</span>
+          <strong>Débora Ferreira Campos Alves</strong>
+        </div>
+        <div class="credential-card">
+          <span class="credential-label">Registro</span>
+          <strong>CRP-SP 06/171671</strong>
+        </div>
+        <div class="credential-card">
+          <span class="credential-label">Atendimento</span>
+          <strong>Ourinhos/SP</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="especialidades" class="section especialidades">
+    <div class="container">
+      <h2>Especialidades</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">📈</div>
+          <h3>Avaliação Psicológica</h3>
+          <p>Avaliação psicológica infantil e adulto, com devolutiva clara para a família ou paciente.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌻</div>
+          <h3>Neurodesenvolvimento</h3>
+          <p>Acompanhamento voltado ao desenvolvimento infantil, incluindo TEA e outras condições do neurodesenvolvimento.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">👨‍👩‍👧</div>
+          <h3>Orientação Parental</h3>
+          <p>Suporte prático para pais e responsáveis lidarem com desafios do dia a dia e fortalecerem o vínculo familiar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="abordagem" class="section abordagem">
+    <div class="container abordagem-inner">
+      <h2>Abordagem ABA</h2>
+      <p>
+        A Análise do Comportamento Aplicada (ABA) é uma ciência voltada à compreensão do
+        comportamento humano, usada para ensinar novas habilidades e reduzir comportamentos
+        que prejudicam a aprendizagem e a autonomia. Na Florescer, cada plano é individualizado,
+        construído a partir de avaliação cuidadosa e revisado periodicamente junto com a família.
+      </p>
+    </div>
+  </section>
+
+  <section id="contato" class="section contato">
+    <div class="container contato-inner">
+      <h2>Vamos conversar?</h2>
+      <p>Chame no WhatsApp para tirar dúvidas ou agendar uma avaliação.</p>
+      <a class="btn btn-whatsapp btn-lg" href="https://wa.me/5514997606343" target="_blank" rel="noopener">
+        (14) 99760-6343 — Chamar no WhatsApp
+      </a>
+      <a class="contato-email" href="mailto:florescerterapias.contato@gmail.com">florescerterapias.contato@gmail.com</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="{{ url_for('static', filename='img/logo-florescer.png') }}" alt="Florescer" class="footer-logo">
+      <p>Débora Ferreira Campos Alves · Psicóloga · CRP-SP 06/171671 · Ourinhos/SP</p>
+    </div>
+  </footer>
+
+</body>
+</html>
