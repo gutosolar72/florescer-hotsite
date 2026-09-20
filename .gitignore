@@ -1,0 +1,21 @@
+# ambiente virtual
+venv/
+env/
+
+# cache do Python
+__pycache__/
+*.pyc
+
+# variáveis de ambiente / segredos
+.env
+
+# arquivos do editor
+.vscode/
+
+# banco de dados local (se usar SQLite depois)
+*.db
+*.sqlite3
+
+# sistema
+.DS_Store
+Thumbs.db
